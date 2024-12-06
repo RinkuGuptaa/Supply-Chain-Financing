@@ -1,0 +1,15 @@
+    [package]
+    name = "SupplyChainFinancing"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0x33422e850cd2f283a3ec9a6f8a55dff430ce9db220f0cc41aa649fb7c2a4442f'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
